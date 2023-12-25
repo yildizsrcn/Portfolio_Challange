@@ -60,7 +60,13 @@ body {
 #aboutText {
   width:1000px;
   border-left: solid 3px black;
-  padding-left: 10px;
+  padding-left: 100px;
+}
+
+.projects-container{
+  width: 1000px;
+  border-left: solid 3px black;
+  padding-left: 100px;
 }
 
 #Portfolio {
@@ -79,9 +85,8 @@ span {
 }
 
 .picture1{
-  /* width: 1000px; */
-  border-left: solid 3px black;
-  padding-left: 50px;
+  /* width: 1000px; */  
+  padding-left: 100px;
 }
 .project-title{
  margin-right: 1%;
@@ -97,8 +102,7 @@ span {
 .project{
   width:500px;
   margin-bottom: 2%;
-  border-left: solid 3px black;
-  padding-left: 50px;
+  padding-left: 100px;
 }
 .title{
   display: flex;
@@ -145,10 +149,10 @@ p {
   
 }
 
-.contacttext{
-  width:100px;
+.ContactMe {
+  width:1000px;
   border-right: solid 3px black;
-  padding-right: 10px
+  padding-right: 140px;
 }
 
 .ig {
@@ -175,5 +179,22 @@ img {
 }
 
 @media screen and (max-width: 980px){
-
+.page-section{
+  flex-direction: column;
 }
+}
+@media screen and (max-width:600px){
+  .page-section{
+    flex-direction: column;
+  }
+}
+  @media only screen and (max-width: 1200px) {
+  .page-section{
+    flex-direction: column;
+  }
+  }
+.projects-container{
+border-top:solid 3px black;
+border-left: none;
+}
+
